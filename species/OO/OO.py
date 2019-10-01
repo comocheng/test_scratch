@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 atoms = {
-    'H': 2,
     'O': 2,
+    'H': 2,
 }
 
 bonds = {
-    'O-H': 2,
     'O-O': 1,
+    'O-H': 2,
 }
 
 linear = False
@@ -27,3 +27,6 @@ geometry = Log('OO.log')
 
 frequencies = Log('OO.log')
 
+rotors = [
+     HinderedRotor(scanLog=Log('/Users/nathan/Code/test_scratch/species/OO/rotors/OO_36by10_0_1.log'), pivots=[1, 2], top=[2, 4], fit='best'),
+]

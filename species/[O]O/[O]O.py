@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 atoms = {
-    'H': 1,
     'O': 2,
+    'H': 1,
 }
 
 bonds = {
-    'O-H': 1,
     'O-O': 1,
+    'O-H': 1,
 }
 
 linear = False
@@ -27,3 +27,5 @@ geometry = Log('[O]O.log')
 
 frequencies = Log('[O]O.log')
 
+rotors = [
+]
